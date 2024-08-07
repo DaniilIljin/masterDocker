@@ -1,0 +1,23 @@
+# Node modules - these are installed inside the Docker container, not needed in build context
+node_modules
+npm-debug.log
+
+# Local environment files - we use environment variables for configuration
+.env
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker-related files and directories
+Dockerfile
+docker-compose.yml
+
+# Other unwanted files or directories
+*.md
+*.git
+.git/
+.gitignore
